@@ -8,7 +8,7 @@ export const useDarkMode = (initialValue) => {
     const sbar = document.querySelector("#searchInput");
     if (localStorage.getItem("toggled")) {
       body.classList.toggle("dark-mode");
-      sbar.classList.toggle("dark-searchbar");
+      sbar.classList.toggle("dark-mode");
     }
   }, [value]);
   return [value, setValue];

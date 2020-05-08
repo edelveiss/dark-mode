@@ -245,17 +245,12 @@ img {
 .dark-mode {
   color: #fff;
   background-color: #313843;
+  &::placeholder {
+    color: rgb(214, 205, 205);
+  }
 
   .navbar {
     background-color: #1f2022;
     border: none;
   }
-}
-
-.dark-searchbar {
-  color: #fff;
-  background-color: #313843;
-}
-.dark-searchbar::placeholder {
-  color: rgb(214, 205, 205);
 }
